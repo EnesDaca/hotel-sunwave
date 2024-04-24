@@ -78,7 +78,7 @@ function RoomRow({ room }) {
     <Table.Row>
       <Img src={image} alt="room look" />
       <Room>{name}</Room>
-      <div>Fits up tp {maxCapacity} guests</div>
+      <div>Fits up to {maxCapacity} guests</div>
       <Price>{formatCurrency(regularPrice)}</Price>
       {discount ? (
         <Discount>{formatCurrency(discount)}</Discount>
