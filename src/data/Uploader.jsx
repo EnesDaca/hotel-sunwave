@@ -130,6 +130,7 @@ function Uploader() {
       style={{
         marginTop: "auto",
         backgroundColor: "#e0e7ff",
+        color: black,
         padding: "8px",
         borderRadius: "5px",
         textAlign: "center",
